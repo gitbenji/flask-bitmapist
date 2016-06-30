@@ -1,0 +1,17 @@
+jenkins:  http://0.0.0.0:8080/
+repo: https://github.com/gitbenji/flask-bitmapist.git
+template: templates
+namefmt: '{shortref}'
+overwrite: true
+
+build-on-create: true
+enable: true
+
+ignore:
+  - 'refs/heads/feature/.*'
+
+refs:
+  - 'refs/heads/master/.*'
+  - 'refs/heads/release/.*'
+  - 'refs/heads/development/.*'
+  - 'refs/heads/stable/.*'
