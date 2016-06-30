@@ -1,5 +1,5 @@
 jenkins:  http://0.0.0.0:8080/
-repo: https://github.com/gitbenji/flask-bitmapist.git
+repo: file:///Users/benji/cuttlesoft/flask-bitmapist
 template: templates
 namefmt: '{shortref}'
 overwrite: true
